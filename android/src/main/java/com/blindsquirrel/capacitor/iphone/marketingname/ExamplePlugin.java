@@ -7,7 +7,7 @@ import com.getcapacitor.PluginMethod;
 import com.getcapacitor.annotation.CapacitorPlugin;
 
 @CapacitorPlugin(name = "Example")
-public class ExamplePlugin extends Plugin {
+public class iPhoneMarketingNamePlugin extends Plugin {
 
     private Example implementation = new Example();
 
