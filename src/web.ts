@@ -1,8 +1,8 @@
 import { WebPlugin } from '@capacitor/core';
 
-import type { ExamplePlugin } from './definitions';
+import type { iPhoneMarketingNamePlugin } from './definitions';
 
-export class ExampleWeb extends WebPlugin implements ExamplePlugin {
+export class iPhoneMarketingNameWeb extends WebPlugin implements iPhoneMarketingNamePlugin {
   async echo(options: { value: string }): Promise<{ value: string }> {
     console.log('ECHO', options);
     return options;
