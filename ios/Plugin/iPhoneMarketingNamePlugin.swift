@@ -15,4 +15,13 @@ public class iPhoneMarketingNamePlugin: CAPPlugin {
             "value": implementation.echo(value)
         ])
     }
+    
+    @objc func getMarketingName(_ call: CAPPluginCall) {
+        
+    }
 }
+
+/**
+ 
+
+ */
