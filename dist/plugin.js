@@ -1,4 +1,4 @@
-var capacitorExample = (function (exports, core) {
+var capacitoriPhoneMarketingName = (function (exports, core) {
     'use strict';
 
     const iPhoneMarketingName = core.registerPlugin('iPhoneMarketingName', {

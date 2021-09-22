@@ -6,10 +6,10 @@ import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 import com.getcapacitor.annotation.CapacitorPlugin;
 
-@CapacitorPlugin(name = "Example")
+@CapacitorPlugin(name = "iPhoneMarketingName")
 public class iPhoneMarketingNamePlugin extends Plugin {
 
-    private Example implementation = new Example();
+    private iPhoneMarketingName implementation = new iPhoneMarketingName();
 
     @PluginMethod
     public void echo(PluginCall call) {
