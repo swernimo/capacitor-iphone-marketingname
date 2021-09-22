@@ -1,12 +1,12 @@
 package com.blindsquirrel.capacitor.iphone.marketingname;
 
 import com.getcapacitor.JSObject;
+import com.getcapacitor.NativePlugin;
 import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
-import com.getcapacitor.annotation.CapacitorPlugin;
 
-@CapacitorPlugin(name = "iPhoneMarketingName")
+@NativePlugin()
 public class iPhoneMarketingNamePlugin extends Plugin {
 
     private iPhoneMarketingName implementation = new iPhoneMarketingName();
