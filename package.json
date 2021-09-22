@@ -41,7 +41,8 @@
     "build": "npm run clean && npm run docgen && tsc && rollup -c rollup.config.js",
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "shipit": "npm run np"
   },
   "devDependencies": {
     "@capacitor/android": "^3.0.0",
@@ -52,8 +53,11 @@
     "@ionic/prettier-config": "^1.0.1",
     "@ionic/swiftlint-config": "^1.1.2",
     "eslint": "^7.11.0",
-    "prettier": "~2.2.0",
-    "prettier-plugin-java": "~1.0.0",
+    "husky": "^7.0.2",
+    "np": "^7.5.0",
+    "prettier": "^2.2.1",
+    "prettier-plugin-java": "^1.0.2",
+    "pretty-quick": "^3.1.1",
     "rimraf": "^3.0.2",
     "rollup": "^2.32.0",
     "swiftlint": "^1.0.1",
@@ -73,6 +77,11 @@
     },
     "android": {
       "src": "android"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
     }
   }
 }
