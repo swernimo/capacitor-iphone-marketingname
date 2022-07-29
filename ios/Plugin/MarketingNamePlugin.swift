@@ -9,10 +9,9 @@ import Capacitor
 public class MarketingNamePlugin: CAPPlugin {
     private let implementation = MarketingName()
 
-    @objc func echo(_ call: CAPPluginCall) {
-        let value = call.getString("value") ?? ""
+    @objc func getMarketingName(_ call: CAPPluginCall) {
         call.resolve([
-            "value": implementation.echo(value)
+            "marketingName": "\(UIDevice().type)"
         ])
     }
 }
