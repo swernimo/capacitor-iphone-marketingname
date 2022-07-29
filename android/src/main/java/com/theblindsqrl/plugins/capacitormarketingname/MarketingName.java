@@ -1,11 +1,11 @@
 package com.theblindsqrl.plugins.capacitormarketingname;
 
-import android.util.Log;
-
 public class MarketingName {
 
-    public String echo(String value) {
-        Log.i("Echo", value);
-        return value;
+//using the library from https://github.com/jaredrummler/AndroidDeviceNames
+    public String getMarketingName() {
+        DeviceName.init(this);
+        String marketingName = DeviceName.getDeviceName();
+        return marketingName;
     }
 }

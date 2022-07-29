@@ -12,11 +12,9 @@ public class MarketingNamePlugin extends Plugin {
     private MarketingName implementation = new MarketingName();
 
     @PluginMethod
-    public void echo(PluginCall call) {
-        String value = call.getString("value");
-
+    public void getMarketingName(PluginCall call) {
         JSObject ret = new JSObject();
-        ret.put("value", implementation.echo(value));
+        ret.put("value", implementation.getMarketingName());
         call.resolve(ret);
     }
 }
