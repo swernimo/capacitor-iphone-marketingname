@@ -4,7 +4,7 @@ export default {
     {
       file: 'dist/plugin.js',
       format: 'iife',
-      name: 'capacitoriPhoneMarketingName',
+      name: 'capacitorMarketingName',
       globals: {
         '@capacitor/core': 'capacitorExports',
       },

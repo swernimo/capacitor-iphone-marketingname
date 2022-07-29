@@ -1,10 +1,10 @@
 import { registerPlugin } from '@capacitor/core';
 
-import type { iPhoneMarketingNamePlugin } from './definitions';
+import type { MarketingNamePlugin } from './definitions';
 
-const iPhoneMarketingName = registerPlugin<iPhoneMarketingNamePlugin>('iPhoneMarketingName', {
-  web: () => import('./web').then(m => new m.iPhoneMarketingNameWeb()),
+const MarketingName = registerPlugin<MarketingNamePlugin>('MarketingName', {
+  web: () => import('./web').then(m => new m.MarketingNameWeb()),
 });
 
 export * from './definitions';
-export { iPhoneMarketingName };
+export { MarketingName };

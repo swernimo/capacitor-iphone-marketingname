@@ -1,11 +1,9 @@
 import { WebPlugin } from '@capacitor/core';
-export class iPhoneMarketingNameWeb extends WebPlugin {
-    async echo(options) {
-        console.log('ECHO', options);
-        return options;
-    }
+export class MarketingNameWeb extends WebPlugin {
     async getMarketingName() {
-        return Promise.reject('get marketing name not implemented for web');
+        return {
+            value: 'Web'
+        };
     }
 }
 //# sourceMappingURL=web.js.map
