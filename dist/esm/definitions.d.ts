@@ -1,10 +1,5 @@
-export interface iPhoneMarketingNamePlugin {
-    echo(options: {
-        value: string;
-    }): Promise<{
-        value: string;
-    }>;
+export interface MarketingNamePlugin {
     getMarketingName(): Promise<{
-        marketingName: string;
+        value: string;
     }>;
 }

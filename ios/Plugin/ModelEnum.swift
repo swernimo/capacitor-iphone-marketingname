@@ -1,17 +1,9 @@
-//
-//  ModelEnum.swift
-//  Plugin
-//
-//  Created by Sean Local on 9/22/21.
-//  Copyright © 2021 Max Lynch. All rights reserved.
-//
-
 import Foundation
 
 //code taken from https://stackoverflow.com/a/46234519/1736007
+//list of phones https://www.theiphonewiki.com/wiki/Models
 public enum Model : String {
 
-//Simulator
 case simulator     = "simulator/sandbox",
 
 //iPod
@@ -31,10 +23,12 @@ iPadAir            = "iPad Air ",
 iPadAir2           = "iPad Air 2",
 iPadAir3           = "iPad Air 3",
 iPadAir4           = "iPad Air 4",
+iPadAir5           = "iPad Air 5",
 iPad5              = "iPad 5", //iPad 2017
 iPad6              = "iPad 6", //iPad 2018
 iPad7              = "iPad 7", //iPad 2019
 iPad8              = "iPad 8", //iPad 2020
+iPad9              = "iPad 9", //iPad 2021
 
 //iPad Mini
 iPadMini           = "iPad Mini",
@@ -42,6 +36,7 @@ iPadMini2          = "iPad Mini 2",
 iPadMini3          = "iPad Mini 3",
 iPadMini4          = "iPad Mini 4",
 iPadMini5          = "iPad Mini 5",
+iPadMini6          = "iPad Mini 6",
 
 //iPad Pro
 iPadPro9_7         = "iPad Pro 9.7\"",
@@ -86,6 +81,7 @@ iPhone13Mini       = "iPhone 13 Mini",
 iPhone13           = "iPhone 13",
 iPhone13Pro        = "iPhone 13 Pro",
 iPhone13ProMax     = "iPhone 13 Pro Max",
+iPhoneSE3          = "iPhone SE 3nd gen",
 
 // Apple Watch
 AppleWatch1         = "Apple Watch 1gen",
@@ -96,6 +92,7 @@ AppleWatchS4        = "Apple Watch Series 4",
 AppleWatchS5        = "Apple Watch Series 5",
 AppleWatchSE        = "Apple Watch Special Edition",
 AppleWatchS6        = "Apple Watch Series 6",
+AppleWatchS7        = "Apple Watch Series 7",
 
 //Apple TV
 AppleTV1           = "Apple TV 1gen",

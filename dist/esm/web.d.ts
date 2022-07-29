@@ -1,12 +1,7 @@
 import { WebPlugin } from '@capacitor/core';
-import type { iPhoneMarketingNamePlugin } from './definitions';
-export declare class iPhoneMarketingNameWeb extends WebPlugin implements iPhoneMarketingNamePlugin {
-    echo(options: {
-        value: string;
-    }): Promise<{
-        value: string;
-    }>;
+import type { MarketingNamePlugin } from './definitions';
+export declare class MarketingNameWeb extends WebPlugin implements MarketingNamePlugin {
     getMarketingName(): Promise<{
-        marketingName: string;
+        value: string;
     }>;
 }

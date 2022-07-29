@@ -1,7 +1,7 @@
 import { registerPlugin } from '@capacitor/core';
-const iPhoneMarketingName = registerPlugin('iPhoneMarketingName', {
-    web: () => import('./web').then(m => new m.iPhoneMarketingNameWeb()),
+const MarketingName = registerPlugin('MarketingName', {
+    web: () => import('./web').then(m => new m.MarketingNameWeb()),
 });
 export * from './definitions';
-export { iPhoneMarketingName };
+export { MarketingName };
 //# sourceMappingURL=index.js.map

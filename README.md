@@ -1,11 +1,11 @@
-# capacitor-iphone-marketingname
+# capacitor-marketingname-plugin
 
-Plugin that returns the marketing name of iPhones
+Plugin that returns the marketing name of the phone
 
 ## Install
 
 ```bash
-npm install capacitor-iphone-marketingname
+npm install capacitor-marketingname-plugin
 npx cap sync
 ```
 
@@ -13,7 +13,6 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
 * [`getMarketingName()`](#getmarketingname)
 
 </docgen-index>
@@ -21,28 +20,13 @@ npx cap sync
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
-
-```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
-```
-
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
-
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
-
---------------------
-
-
 ### getMarketingName()
 
 ```typescript
-getMarketingName() => Promise<{ marketingName: string; }>
+getMarketingName() => Promise<{ value: string; }>
 ```
 
-**Returns:** <code>Promise&lt;{ marketingName: string; }&gt;</code>
+**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
 --------------------
 

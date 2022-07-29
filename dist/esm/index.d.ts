@@ -1,3 +1,4 @@
-declare const iPhoneMarketingName: any;
+import type { MarketingNamePlugin } from './definitions';
+declare const MarketingName: MarketingNamePlugin;
 export * from './definitions';
-export { iPhoneMarketingName };
+export { MarketingName };

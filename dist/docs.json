@@ -1,31 +1,15 @@
 {
   "api": {
-    "name": "iPhoneMarketingNamePlugin",
-    "slug": "iphonemarketingnameplugin",
+    "name": "MarketingNamePlugin",
+    "slug": "marketingnameplugin",
     "docs": "",
     "tags": [],
     "methods": [
       {
-        "name": "echo",
-        "signature": "(options: { value: string; }) => Promise<{ value: string; }>",
-        "parameters": [
-          {
-            "name": "options",
-            "docs": "",
-            "type": "{ value: string; }"
-          }
-        ],
-        "returns": "Promise<{ value: string; }>",
-        "tags": [],
-        "docs": "",
-        "complexTypes": [],
-        "slug": "echo"
-      },
-      {
         "name": "getMarketingName",
-        "signature": "() => Promise<{ marketingName: string; }>",
+        "signature": "() => Promise<{ value: string; }>",
         "parameters": [],
-        "returns": "Promise<{ marketingName: string; }>",
+        "returns": "Promise<{ value: string; }>",
         "tags": [],
         "docs": "",
         "complexTypes": [],
@@ -35,5 +19,7 @@
     "properties": []
   },
   "interfaces": [],
-  "enums": []
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
 }
