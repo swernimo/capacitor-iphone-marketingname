@@ -14,7 +14,7 @@ public class MarketingNamePlugin extends Plugin {
     @PluginMethod
     public void getMarketingName(PluginCall call) {
         JSObject ret = new JSObject();
-        ret.put("value", implementation.getMarketingName());
+        ret.put("value", implementation.getMarketingName(getContext()));
         call.resolve(ret);
     }
 }

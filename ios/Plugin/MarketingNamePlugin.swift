@@ -11,7 +11,7 @@ public class MarketingNamePlugin: CAPPlugin {
 
     @objc func getMarketingName(_ call: CAPPluginCall) {
         call.resolve([
-            "marketingName": "\(UIDevice().type)"
+            "value": "\(UIDevice().type)"
         ])
     }
 }
