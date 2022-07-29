@@ -1,3 +1,3 @@
 export interface MarketingNamePlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  getMarketingName(): Promise<{ value: string }>;
 }
