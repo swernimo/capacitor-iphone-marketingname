@@ -9,9 +9,10 @@ const MarketingName = core.registerPlugin('MarketingName', {
 });
 
 class MarketingNameWeb extends core.WebPlugin {
-    async echo(options) {
-        console.log('ECHO', options);
-        return options;
+    async getMarketingName() {
+        return {
+            value: 'Web'
+        };
     }
 }
 

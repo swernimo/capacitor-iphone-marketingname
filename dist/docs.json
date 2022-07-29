@@ -6,20 +6,14 @@
     "tags": [],
     "methods": [
       {
-        "name": "echo",
-        "signature": "(options: { value: string; }) => Promise<{ value: string; }>",
-        "parameters": [
-          {
-            "name": "options",
-            "docs": "",
-            "type": "{ value: string; }"
-          }
-        ],
+        "name": "getMarketingName",
+        "signature": "() => Promise<{ value: string; }>",
+        "parameters": [],
         "returns": "Promise<{ value: string; }>",
         "tags": [],
         "docs": "",
         "complexTypes": [],
-        "slug": "echo"
+        "slug": "getmarketingname"
       }
     ],
     "properties": []
