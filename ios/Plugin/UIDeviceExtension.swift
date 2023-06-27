@@ -16,7 +16,7 @@ public extension UIDevice {
                 ptr in String.init(validatingUTF8: ptr)
             }
         }
-
+//model list taken from https://gist.github.com/adamawolf/3048717
     let modelMap : [String: Model] = [
 
         //Simulator
@@ -151,6 +151,11 @@ public extension UIDevice {
         "iPhone14,5" : .iPhone13,
         "iPhone14,2" : .iPhone13Pro,
         "iPhone14,3" : .iPhone13ProMax,
+        "iPhone14,6" : .iPhoneSE3rd,
+        "iPhone14,7" : .iPhone14,
+        "iPhone14,8" : .iPhone14Plus,
+        "iPhone15,2" : .iPhone14Pro,
+        "iPhone15,3" : .iPhone14ProMax,
         
         // Apple Watch
         "Watch1,1" : .AppleWatch1,
